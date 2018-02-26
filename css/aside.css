@@ -1,0 +1,52 @@
+/* ===========================rigth-aside===================== */
+#right-aside {
+  position: fixed;
+  top: 200px;
+  right: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  display: none; }
+  #right-aside ul {
+    overflow: hidden; }
+    #right-aside ul li {
+      width: 50px;
+      height: 50px;
+      border-bottom: 1px solid #eee;
+      text-align: center;
+      background: white;
+      line-height: 23px; }
+      #right-aside ul li:hover {
+        cursor: pointer; }
+      #right-aside ul li i {
+        color: #f450a2; }
+    #right-aside ul li.last {
+      background: #f450a2;
+      height: 35px; }
+      #right-aside ul li.last span {
+        display: inline-block;
+        width: 0px;
+        height: 0px;
+        border: 10px solid #f450a2;
+        border-bottom: 10px solid #fff; }
+    #right-aside ul li span {
+      display: block;
+      height: 20px; }
+
+/* ==============left-aside=============== */
+#left-aside {
+  overflow: hidden;
+  position: fixed;
+  top: 200px;
+  left: -50px;
+  display: none; }
+  #left-aside img {
+    width: 100px;
+    height: 248px; }
+
+#move {
+  position: fixed;
+  width: 180px;
+  right: 100px;
+  top: 200px;
+  opacity: 0; }
